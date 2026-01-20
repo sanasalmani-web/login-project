@@ -17,34 +17,48 @@ function Header() {
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto menu">
+        <Navbar.Collapse id="basic-navbar-nav ">
+          <Nav className="ms-auto menu ">
 
-            <NavDropdown title="HOME" className="hover-dropdown">
+            <NavDropdown title="HOME">
               <NavDropdown.Item>Home Version 1</NavDropdown.Item>
               <NavDropdown.Item>Home Version 2</NavDropdown.Item>
               <NavDropdown.Item>Home Version 3</NavDropdown.Item>
               <NavDropdown.Item>Home Version 4</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="ABOUT" className="hover-dropdown">
+            <NavDropdown title="ABOUT">
               <NavDropdown.Item>About</NavDropdown.Item>
-              <NavDropdown.Item>Team</NavDropdown.Item>
+              <NavDropdown.Item>About profile</NavDropdown.Item>
+              <NavDropdown.Item>About history</NavDropdown.Item>
+              <NavDropdown.Item>About report</NavDropdown.Item>
+              <NavDropdown.Item>About team</NavDropdown.Item>
+              <NavDropdown.Item>About support</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="SERVICES" className="hover-dropdown">
+            <NavDropdown title="SERVICES">
               <NavDropdown.Item>Service 1</NavDropdown.Item>
               <NavDropdown.Item>Service 2</NavDropdown.Item>
+              <NavDropdown.Item>Service 3</NavDropdown.Item>
+              <NavDropdown.Item>Service Details</NavDropdown.Item>
+
+            </NavDropdown>
+            <NavDropdown title="OTHER PAGES">
+              <NavDropdown.Item>404</NavDropdown.Item>
+              <NavDropdown.Item>Coming soon</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="BLOG" className="hover-dropdown">
-              <NavDropdown.Item>Blog 1</NavDropdown.Item>
+
+            <NavDropdown title="BLOG">
+              <NavDropdown.Item>Blog version 1</NavDropdown.Item>
+              <NavDropdown.Item>Blog version 2</NavDropdown.Item>
+              <NavDropdown.Item>Single blog</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="CONTACT" className="hover-dropdown">
-              <NavDropdown.Item>Contact</NavDropdown.Item>
+              <NavDropdown.Item>Contact version1</NavDropdown.Item>
+              <NavDropdown.Item>Contact version2</NavDropdown.Item>
             </NavDropdown>
-
           </Nav>
         </Navbar.Collapse>
 
